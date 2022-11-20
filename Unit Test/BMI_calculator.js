@@ -5,9 +5,9 @@ const myFunction = (kg,m) => {
 
         m = m*m;
        let value = kg/m;
-      return value.toFixed(a);
+       let val = value.toFixed(1);
+       return val / 1;
     
 }
-myFunction(75,1.74)
 
 module.exports = myFunction
