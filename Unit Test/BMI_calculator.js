@@ -5,7 +5,7 @@ const myFunction = (kg,m) => {
 
         m = m*m;
        let value = kg/m;
-      console.log(value.toFixed(2));
+      return value.toFixed(a);
     
 }
 myFunction(75,1.74)
