@@ -1,4 +1,4 @@
-const sentence = "a set of words that is complete in itself, typically containing a subject and predicate, conveying a statement, question, exclamation, or command, and consisting of a main clause and sometimes one or more subordinate Clauses."
+const sentence = "<A set of words that is complete in itself, Typically containing a subject and predicate, conveying a statement, question, exclamation, or command, and consisting of a main clause and sometimes one or more subordinate Clauses."
 
 
 function UpCaseDetec (n){
@@ -13,5 +13,5 @@ function UpCaseDetec (n){
     }
 }
 
-UpCaseDetec(1000000000000000)
+UpCaseDetec(0)
 console.log(sentence.charAt(0) === sentence.charAt(0).toLowerCase())
