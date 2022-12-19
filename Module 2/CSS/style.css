@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: blue;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.classroom {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
