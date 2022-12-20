@@ -1,0 +1,15 @@
+.class {
+    color: red;
+}
+
+#unique {
+    color: blue;
+}
+
+h2 {
+    color:  gray;
+}
+
+* {
+    color: purple;
+}
