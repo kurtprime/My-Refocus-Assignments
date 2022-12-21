@@ -1,0 +1,17 @@
+div {
+    border: 1px solid gray;
+    padding: 16px;
+    height: 400px;
+    width: 400px;
+}
+
+h1 {
+    margin: 10px 5px 10px 5px;
+    padding: 10px 13px 11px 12px;
+}
+
+p {
+    color: red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px 16px 0px 16px;
