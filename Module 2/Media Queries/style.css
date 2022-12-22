@@ -1,0 +1,50 @@
+.this {
+    background-color: aliceblue;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (min-width: 993px){
+    #mobile {
+        display: none;
+        color: rgb(61, 21, 107);
+    }
+    #tablet {
+        display: none;
+    }
+    #pc {
+        display: inline-block;
+        color: blue;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    #mobile {
+        display: none;
+        color: rgb(61, 21, 107);
+    }
+    #tablet {
+        display: inline-block;
+        color: gold;
+    }
+    #pc {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 688px){
+    #mobile {
+        display: block;
+        color: rgb(61, 21, 107);
+    }
+    #tablet {
+        display: none;
+    }
+    #pc {
+        display: none;
+    }
+}
