@@ -1,0 +1,97 @@
+.logo {
+    background-color: #162040;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.refocus {
+    font-size: 30px;
+    font-family: sans-serif;
+    display: none;
+    position: relative;
+    bottom: 36px;
+    left: 20px;
+}
+.refocus-image {
+    display: flex;
+}
+.paragraphs {
+    margin-left: 27px;
+    font-family: sans-serif;
+    display: none;
+}
+
+@media only screen and (max-width:1022px){
+    .refocus {
+        display: none;
+    }
+    .refocus-image {
+        height: 150px;
+        display: flex;
+        position: relative;
+        bottom: 50px;
+        left: 30%;
+    }
+    .logo {
+        margin-top: 50px;
+    }
+    .paragraphs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .learn {
+        position: relative;
+        right: 50%;
+    }
+    .mentor {
+        position: relative;
+        right: 35%;
+    }
+    .success-stories {
+        position: relative;
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .refocus {
+        display: flex;
+    }
+    .refocus-image {
+        display: none;
+    }
+    .logo {
+        margin-top: 0px;
+    }
+    .paragraphs, .learn, .success-stories {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1023px){
+    .refocus-image {
+        display: none;
+    }
+    .refocus {
+        display: flex;
+    }
+    .paragraphs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .learn {
+        position: relative;
+        right: 50%;
+    }
+    .mentor {
+        position: relative;
+        right: 35%;
+    }
+    .success-stories {
+        position: relative;
+        right: 20%;
+    }
+}
