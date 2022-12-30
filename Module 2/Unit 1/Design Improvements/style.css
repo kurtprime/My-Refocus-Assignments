@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #4ef6ae;
+    font-family:'Roboto', sans-serif;
+}
+figure img {
+    width: 100%;
+}
+.banner-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+.banner {
+    height: 15%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    background-color: white;
+    border: black solid 5px;
+    border-radius: 25px;
+}
+.h2-and-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px 0px 5%;
+    padding: 35px 0px 50px 10px;
+    border-radius: 2px;
+    border-left: rgb(94, 90, 90) solid 8px;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.cta-container {
+    grid-column: -4/-1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.enroll, .login {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.enroll {
+    background-color: #4ef6ae;
+}
+.login {
+    background-color: rgb(236, 48, 48);
+    color: white;
+}
+
+.below {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.under {
+    display: flex;
+    height: 20%;
+    width: 65%;
+    background-color: white;
+    border: black solid 5px;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+.grid-below {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.school-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 15px 0px 15px 0px;
+}
+.lorem {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding: 0px 50px 50px 50px;
+    text-align: justify;
+}
