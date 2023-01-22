@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Simple Quiz</h1>
+
+<form name="quiz" id="quiz-form">
+  <div class="form-control">
+    <div>
+      Question 1: What is the capital of the Philippines? <br>
+      <!-- Enter field for question 1 here -->
+      <div id="result-question1"></div>
+      <br><br>
+    </div>
+  </div>
+  <div class="form-control">
+    <div>
+      Question 2: What is the value of x? x = 3 + 2*5<br>
+      <!-- Enter options for question 2 here -->
+      <div id="result-question2"></div>
+      <br><br>
+    </div>
+  </div>
+  <div class="form-control">
+    <div>
+      Question 3: Which of the following birds can fly? Choose 3 correct answers.<br>
+      <!-- Enter options for question 3 here -->
+      <div id="result-question3"></div>
+      <br><br>
+    </div>
+  </div>
+  <div class="form-control">
+    <button type="submit" name="submitBtn"> Submit </button>
+    <button type="reset" name="resetBtn"> Reset </button>
+  </div>
+</form>
+
+
+<script type="text/javascript">
+  const form = document.forms.quiz;
+  // get the values of each form here
+
+
+  form.addEventListener('submit', function(event){
+    event.preventDefault();
+    checkQuestion1();
+    checkQuestion2();
+    checkQuestion3();
+  })
+
+  form.addEventListener('reset', function(event){
+    event.preventDefault();
+      // Add more reset of inputs here
+      document.getElementById('result-question1').innerText = "";
+      document.getElementById('result-question2').innerText = "";
+      document.getElementById('result-question3').innerText = "";
+  })
+
+  function checkQuestion1(){
+    // Enter validation for question 1 here
+  }
+
+  function checkQuestion2(){
+    // Enter validation for question 2 here
+  }
+
+  function checkQuestion3(){
+    // Enter validation for question 3 here
+  }
+
+</script>
+
+</body>
+</html>
