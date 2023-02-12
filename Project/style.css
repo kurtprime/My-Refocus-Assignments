@@ -1,0 +1,18 @@
+* {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+}
+.body {
+    height: 3508px;
+    width: 2480px;
+}
+.main_information {
+    border-bottom: black solid 2px;
+}
+img {
+    height: 51mm;
+    width: 51mm;
+    border-radius: 100px;
+}
