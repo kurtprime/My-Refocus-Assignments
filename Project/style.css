@@ -1,18 +1,32 @@
 * {
-    font-family: sans-serif;
-    background-color: #f5f5f5;
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    color: black;
+}
+ul{
+    list-style: none;
 }
 .body {
-    height: 3508px;
-    width: 2480px;
+    height: 1300px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.body_structure {
+    align-items: center;
+    text-align: center;
 }
 .main_information {
+    align-items: center;
     border-bottom: black solid 2px;
 }
-img {
-    height: 51mm;
-    width: 51mm;
+.profile img:first-child {
+    height: 35mm;
+    width: 35mm;
     border-radius: 100px;
+    border: rgb(17, 17, 17) solid 2px;
+}
+.certificate-container img:first-child {
+    height: 200px;
 }
