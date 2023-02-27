@@ -1,0 +1,1 @@
+let i = 0; const lastNumber = 5;  while(i <= lastNumber){      console.log(i);      i++; }
