@@ -1,0 +1,26 @@
+@mixin cardShadow(){
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%)
+}
+@mixin backgroundImage(){
+    height: 250px;
+    width: 320px;
+    background-size:cover;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    
+}
+@mixin bottomCard(){
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    background-color: #F8F9FC;
+    border-top: 0.5px solid #9D9DB5; 
+    color: #9D9DB5;
+    margin: 0px 20px;
+}
