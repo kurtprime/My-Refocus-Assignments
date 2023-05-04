@@ -4,9 +4,10 @@
 @mixin backgroundImage(){
     height: 250px;
     width: 320px;
-    background-size:320px 250px ;
+    background-size:cover;
     background-color: aliceblue;
     background-repeat: no-repeat;
+    
 }
 @mixin bottomCard(){
     height: 50px;

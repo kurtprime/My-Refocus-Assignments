@@ -38,6 +38,10 @@ header {
   white-space: nowrap;
 }
 
+.border-log img {
+  display: none;
+}
+
 .main-menu {
   display: flex;
   flex-direction: row;
@@ -54,7 +58,7 @@ header {
   font-weight: 400;
 }
 
-.refocus, .blog {
+.blog {
   color: #DCF10D;
 }
 
@@ -67,7 +71,6 @@ header {
 }
 
 .refocus {
-  font-size: 29px;
   width: 20%;
   display: flex;
   justify-content: center;
@@ -81,6 +84,13 @@ header {
   height: 26px;
 }
 
+#menu-blog {
+  border-bottom: 1px solid #DCF10D;
+  color: #DCF10D;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
 .menu {
   color: #FFFFFF;
 }
@@ -89,6 +99,10 @@ header {
   color: #9D9DB5;
   display: flex;
   align-items: center;
+}
+
+.button-header {
+  font-size: 16px;
 }
 
 .sign-up {
@@ -122,6 +136,17 @@ header {
   background-color: #F8F9FC;
 }
 
+.background1 {
+  flex-direction: column;
+}
+
+.background-hover {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
 .article {
   height: 100%;
   width: 100%;
@@ -142,7 +167,7 @@ header {
 .img-background {
   height: 250px;
   width: 320px;
-  background-size: 320px 250px;
+  background-size: cover;
   background-color: aliceblue;
   background-repeat: no-repeat;
 }
@@ -176,11 +201,67 @@ header {
   color: #9D9DB5;
   margin: 0px 20px;
 }
+.bottom-card .date {
+  position: relative;
+  padding: 4px 10px;
+  border-radius: 100px;
+  border: #9D9DB5 0.3px solid;
+}
 
 .heart-react {
   display: flex;
   gap: 6.5px;
   align-items: center;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  height: 15px;
+  cursor: pointer;
+  width: 15px;
+}
+
+.xmark-box {
+  position: absolute;
+  display: none;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #9D9DB5;
+}
+
+.checkbox-card {
+  display: none;
+}
+
+.checkbox-card-container {
+  position: absolute;
+  opacity: 0;
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+  color: #9D9DB5;
+}
+
+figure:hover .xmark-box {
+  display: block;
+}
+figure:hover .checkbox-card {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  color: #9D9DB5;
+}
+figure:hover .xmark-box:hover {
+  color: #0266FF;
+}
+figure:hover .heart-react:hover .fa-heart {
+  color: #0266FF;
+}
+figure:hover .background-hover {
+  background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 80.8%);
 }
 
 button {
@@ -194,7 +275,7 @@ button {
 }
 
 .fa-heart {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .footer {
@@ -281,7 +362,7 @@ button {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  justify-content: end;
+  justify-content: flex-end;
   font-weight: 400;
   font-size: 12px;
 }
@@ -296,4 +377,39 @@ button {
 .refocus-act-container a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .border-log {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .border-log img {
+    height: 15px;
+    width: 20px;
+    display: block;
+  }
+  .refocus {
+    padding-left: 20px;
+  }
+  .footer {
+    padding: 0px;
+  }
+  .footer .footer-container {
+    padding: 10% 5%;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer .blog-container, .footer .course-container, .footer .brands, .footer .refocus-act-container {
+    flex-wrap: wrap;
+  }
+  .footer .refocus-act {
+    padding-top: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
