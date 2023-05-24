@@ -3,6 +3,7 @@ import React, { useState } from "react";
 function TaxRateSelector({ callBack }) {
   const [taxRate, setTaxRate] = useState(0.1);
   const handleTax = (e) => {
+    callBack(e.target.value);
     setTaxRate(e.target.value);
   };
 
