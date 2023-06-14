@@ -1,0 +1,415 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+}
+
+body {
+  font-family: "Inter";
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #192140;
+  height: 84px;
+  width: 100%;
+  position: relative;
+  gap: 400px;
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 7%;
+  gap: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.border-log img {
+  display: none;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.main-menu {
+  font-weight: 400;
+}
+
+.blog {
+  color: #DCF10D;
+}
+
+.refocus-vector1 {
+  position: relative;
+  left: 35.08%;
+  right: 56.36%;
+  top: 62.75%;
+  bottom: 1.14%;
+}
+
+.refocus {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+}
+.refocus img {
+  width: 109.71px;
+  height: 26px;
+}
+
+#menu-blog {
+  border-bottom: 1px solid #DCF10D;
+  color: #DCF10D;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.menu {
+  color: #FFFFFF;
+}
+
+.sign {
+  color: #9D9DB5;
+  display: flex;
+  align-items: center;
+}
+
+.button-header {
+  font-size: 16px;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  font-weight: 700;
+}
+
+.log {
+  color: #0266FF;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+
+.border-log {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 48px;
+  border: 2px solid #0266FF;
+  border-radius: 300px;
+  padding: 0px 20px;
+}
+
+.report-card {
+  position: relative;
+  width: 320px;
+  height: 300px;
+  background-color: #F8F9FC;
+}
+
+.background1 {
+  flex-direction: column;
+}
+
+.background-hover {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.article {
+  height: 100%;
+  width: 100%;
+}
+
+.article-container {
+  height: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 60px auto;
+}
+
+.img-background {
+  height: 250px;
+  width: 320px;
+  background-size: cover;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+}
+
+.img-background {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-card {
+  background-color: #F8F9FC;
+  font-weight: 700;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-style: normal;
+  width: 100%;
+}
+
+.bottom-card {
+  height: 50px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  background-color: #F8F9FC;
+  border-top: 0.5px solid #9D9DB5;
+  color: #9D9DB5;
+  margin: 0px 20px;
+}
+.bottom-card .date {
+  position: relative;
+  padding: 4px 10px;
+  border-radius: 100px;
+  border: #9D9DB5 0.3px solid;
+}
+
+.heart-react {
+  display: flex;
+  gap: 6.5px;
+  align-items: center;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  height: 15px;
+  cursor: pointer;
+  width: 15px;
+}
+
+.xmark-box {
+  position: absolute;
+  display: none;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #9D9DB5;
+}
+
+.checkbox-card {
+  display: none;
+}
+
+.checkbox-card-container {
+  position: absolute;
+  opacity: 0;
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+  color: #9D9DB5;
+}
+
+figure:hover .xmark-box {
+  display: block;
+}
+figure:hover .checkbox-card {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  color: #9D9DB5;
+}
+figure:hover .xmark-box:hover {
+  color: #0266FF;
+}
+figure:hover .heart-react:hover .fa-heart {
+  color: #0266FF;
+}
+figure:hover .background-hover {
+  background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 80.8%);
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.fa-heart {
+  font-size: 16px;
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: #10131C;
+  color: #D7F8FF;
+}
+
+.footer-container {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  padding: 60px 100px 60px 80px;
+  justify-content: space-between;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.h3 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.blog-container, .course-container {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 12px;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.blog-and-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-img {
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  color: #FFFFFF;
+  background-color: #192140;
+  border-radius: 50%;
+}
+
+.linkedin-in {
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  width: 26px;
+  color: #FFFFFF;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.refocus-act {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.refocus-act-container {
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+  opacity: 0.4;
+  gap: 10px;
+}
+.refocus-act-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .border-log {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .border-log img {
+    height: 15px;
+    width: 20px;
+    display: block;
+  }
+  .refocus {
+    padding-left: 20px;
+  }
+  .footer {
+    padding: 0px;
+  }
+  .footer .footer-container {
+    padding: 10% 5%;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer .blog-container, .footer .course-container, .footer .brands, .footer .refocus-act-container {
+    flex-wrap: wrap;
+  }
+  .footer .refocus-act {
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
