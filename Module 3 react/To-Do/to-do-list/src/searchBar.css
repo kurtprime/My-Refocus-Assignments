@@ -1,0 +1,9 @@
+.button-div {
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+}

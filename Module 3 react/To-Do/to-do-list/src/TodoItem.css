@@ -1,0 +1,32 @@
+.Todos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  color: #3b71ca;
+  font-size: 25px;
+}
+.Button-todos {
+  position: relative;
+  bottom: 25px;
+}
+.checkbox {
+  width: 25px;
+  background-color: #eee;
+}
+label {
+  display: flex;
+  flex-direction: row;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 20px;
+  justify-content: flex-start;
+}

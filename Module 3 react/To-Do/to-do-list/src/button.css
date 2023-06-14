@@ -1,0 +1,22 @@
+.button {
+  border-radius: 15px;
+  border: none;
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #3b71ca;
+  cursor: pointer;
+  font-size: 20px;
+  height: inherit;
+  width: inherit;
+  color: white;
+  box-shadow: 3px 3px #999;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #2f5a9e;
+}
+.button:active {
+  box-shadow: 1px 1px #666;
+  transform: translateY(2px) translateX(2px);
+}
